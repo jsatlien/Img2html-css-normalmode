@@ -4,7 +4,7 @@
 
 .Background {
   overflow: hidden;
-  width: 80.95%;
+  width: 1101px;
   height: 328px;
 }
 .Background img {
@@ -23,7 +23,7 @@
 }
 
 .optionscontainer {
-  width: 80.95%;
+  width: 1101px;
   height: 550px;
   background-color: lightgrey;
   margin: 0px;
