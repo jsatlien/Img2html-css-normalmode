@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.Background img {
+  width:81%;
+}
+
+.option {
+  height: 500px;
+  width: 200px;
+  border: 1px solid grey;
+  list-style: none;
+  float: left;
+  margin: 50px;
+}
+
+.optionscontainer {
+  width: 81%;
+  height: 800px;
+  background-color: lightgrey;
+}
