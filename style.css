@@ -2,21 +2,34 @@
   box-sizing: border-box;
 }
 
+.Background {
+  overflow: hidden;
+  width: 80.95%;
+  height: 328px;
+}
 .Background img {
-  width:81%;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .option {
-  height: 500px;
-  width: 200px;
+  height: 470px;
+  width: 254px;
   border: 1px solid grey;
   list-style: none;
   float: left;
-  margin: 50px;
+  margin: 7px;
+  margin-top: 40px;
 }
 
 .optionscontainer {
-  width: 81%;
-  height: 800px;
+  width: 80.95%;
+  height: 550px;
   background-color: lightgrey;
+  margin: 0px;
+  padding-left: 110px;
+}
+
+.planpackages {
+  margin: auto;
 }
