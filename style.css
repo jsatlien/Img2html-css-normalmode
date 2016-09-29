@@ -30,6 +30,36 @@
   padding-left: 110px;
 }
 
+.topbox {
+  height: 180px;
+  width: 253px;
+  border-bottom: 1px solid grey;
+}
+
+.personal {
+  background-color: green;
+}
+
+.smallbusiness {
+  background-color: blue;
+}
+.enterprise {
+  background-color: black;
+}
+
+.individualoptions {
+  padding: 0px;
+}
+.individualoptions li {
+  height: 37px;
+  width: 253px;
+  border-bottom: 1px solid grey;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 10pt;
+  font-style: lightgrey;
+}
 .planpackages {
   margin: auto;
 }
