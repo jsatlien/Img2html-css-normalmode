@@ -91,6 +91,7 @@
 }
 .cost {
   font-size: 75px;
+  font-weight: lighter;
 }
 
 .cost p {
@@ -119,6 +120,11 @@
   text-align: center;
   padding: 10px;
   font-size: 10pt;
+  color: #3E4E55;
+}
+
+.permonth {
+  color: grey;
 }
 
 .choosebox {
