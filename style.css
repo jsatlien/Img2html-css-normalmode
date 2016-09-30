@@ -41,12 +41,13 @@
   float: left;
   margin: 7px;
   margin-top: 40px;
+  background-color: lightgrey;
+
 }
 
 .optionscontainer {
   width: 1101px;
   height: 550px;
-  background-color: lightgrey;
   margin: 0px;
   padding-left: 110px;
 }
@@ -59,7 +60,11 @@
   text-align: center;
 }
 .cost {
-  font-size: 20pt;
+  font-size: 40pt;
+}
+
+.cost p {
+  margin: auto;
 }
 
 .personal {
@@ -89,6 +94,9 @@
 .choosebox {
   height: 67px;
   padding: 20px 88px;
+  border-bottom: 1px solid grey;
+  background-color: white;
+
 }
 
 .choosebutton {
@@ -99,6 +107,9 @@
   border-radius: 20px;
   font-size: 9.5pt;
   font-weight: bold;
+  background-color: white;
+  font-color: black;
+  text-decoration: none;
 
 }
 
