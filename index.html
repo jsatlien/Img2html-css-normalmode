@@ -6,12 +6,14 @@
   <title>Simple Pricing</title>
 </head>
 <body>
+  <div class="main"
   <nav class="navbar">
     <span class="links">
-      <span id="yourlogo">YOUR LOGO</span>
-      <span>Home</span>
-      <span>Pricing</span>
+      <span class="black">YOUR LOGO</span>
+        <span>Home</span>
+      <span class="black">Pricing</span>
       <span>Contact</span>
+    </span>
     </nav>
     <div class="Background">
       <img src="normal-mode/assets/background.jpg"/>
@@ -20,10 +22,11 @@
     <div class="optionscontainer">
       <ul class="planpackages">
         <li class="option">
-          <div class="personal topbox"></div>
+          <div class="personal topbox">
+          <span>Personal</span>
+          <span class="cost">$5</span>
           <span></span>
-          <span></span>
-          <span></span>
+          </div>
         <ul class="individualoptions">
           <li>Free setup</li>
           <li>Custom sub-domain</li>
@@ -32,34 +35,45 @@
           <li>1 database</li>
           <li>Unlimited bandwidth</li>
         </ul>
+        <div class="choosebox">
+          <button class="choosebutton"><a href="#">Choose</a></button>
+</div>
       </li>
         <li class="option">
-          <div class="smallbusiness topbox"></div>
+          <div class="smallbusiness topbox">
+          <span>Small Business</span>
+          <span class="cost">$25</span>
           <span></span>
-          <span></span>
-          <span></span>
+            </div>
         <ul class="individualoptions">
           <li>Free setup</li>
-          <li>Custom sub-domain</li>
+          <li>Use your own domain</li>
           <li>Standard customer support</li>
-          <li>1GB file storage</li>
-          <li>1 database</li>
+          <li>10GB file storage</li>
+          <li>5 databases</li>
           <li>Unlimited bandwidth</li>
         </ul>
+        <div class="choosebox">
+          <button class="choosebutton"><a href="#">Choose</a></button>
+</div>
         </li>
         <li class="option">
-          <div class="enterprise topbox"></div>
+          <div class="enterprise topbox">
+          <span>Enterprise</span>
+          <span class="cost">$45</span>
           <span></span>
-          <span></span>
-          <span></span>
+        </div>
         <ul class="individualoptions">
           <li>Free setup</li>
-          <li>Custom sub-domain</li>
-          <li>Standard customer support</li>
-          <li>1GB file storage</li>
-          <li>1 database</li>
+          <li>Use your own domain</li>
+          <li>Premium customer support</li>
+          <li>Unlimited file storage</li>
+          <li>25 databases</li>
           <li>Unlimited bandwidth</li>
         </ul>
+        <div class="choosebox">
+          <button class="choosebutton"><a href="#">Choose</a></button>
+          </div>
         </li>
       </ul>
     </div>
@@ -78,3 +92,6 @@
         </li>
         </ul>
       </div>
+    </div>
+  </body>
+</html>
